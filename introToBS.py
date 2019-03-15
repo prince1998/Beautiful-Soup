@@ -13,4 +13,4 @@ soup = bs4.BeautifulSoup(res.text,'lxml') #converting res from object of type re
 #type(soup) displays soup type as BeautifulSoup
 
 title = soup.select('title') 
-print(title[0].getText())
+print(title[0].getText()) 
