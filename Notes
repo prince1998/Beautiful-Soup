@@ -2,3 +2,5 @@ Notes
 
 Use . to reference classes.
 Use # to reference ids.
+To target all span next to h2 tags
+soup.select('h2 > span')
